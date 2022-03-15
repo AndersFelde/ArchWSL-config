@@ -35,7 +35,7 @@ sh -c "$(curl https://raw.githubusercontent.com/AndersFelde/ArchWSL-config/main/
 
 #### Set your user as default user
 
-> In powershell
+> In powershell in directory where you unzipped "Arch.zip"
 
 ```powershell
 Arch.exe config --default-user YourUsername
