@@ -37,7 +37,7 @@ sh -c "$(curl https://raw.githubusercontent.com/AndersFelde/ArchWSL-config/main/
 
 > In powershell
 
-```bash
+```powershell
 Arch.exe config --default-user YourUsername
 ```
 
