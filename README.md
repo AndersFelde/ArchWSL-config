@@ -62,3 +62,7 @@ Set Argonaut as default colorscheme for Arch
 > [How to add custom colorscheme in Windows Terminal](https://aavtech.site/2020/03/how-to-change-the-color-scheme-in-the-new-windows-terminal/)
 
 Set CaskadyiaCove Nerd Font as default Font face for Arch
+
+## Run GUI apps from WSL 2 (optional)
+
+[How to run GUI apps from wsl](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
