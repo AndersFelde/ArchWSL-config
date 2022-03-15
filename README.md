@@ -30,7 +30,7 @@ That means, if you copy multiple EXE files and rename them to different names, y
 > In Arch.exe
 
 ```bash
-curl https://raw.githubusercontent.com/AndersFelde/ArchWSL-config/main/install.sh | /bin/bash
+sh -c "$(curl https://raw.githubusercontent.com/AndersFelde/ArchWSL-config/main/install.sh)
 ```
 
 #### Set your user as default user
