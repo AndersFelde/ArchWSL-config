@@ -83,7 +83,7 @@ Then choose the package you want to install by pressing the coresponding number
 
 > Tip: if a file is opened after starting the install, press "q" to exit the file and continue installing
 
-#### Update
+#### Remove
 
 ```bash
 paru -Rs NameOfPackage
