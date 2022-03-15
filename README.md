@@ -63,6 +63,32 @@ Set Argonaut as default colorscheme for Arch
 
 Set CaskadyiaCove Nerd Font as default Font face for Arch
 
+## Paru
+
+> Paru is now used instead of Pacman to install and update packages
+
+#### Update all packages
+
+```bash
+paru
+```
+
+#### Install
+
+```bash
+paru NameOfPackage
+```
+
+Then choose the package you want to install by pressing the coresponding number
+
+> Tips: if a file is opened after starting the install, press "q" to exit the file and continue installing
+
+#### Update
+
+```bash
+paru -Rs NameOfPackage
+```
+
 ## Run GUI apps from WSL 2 (optional)
 
 [How to run GUI apps from wsl](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
