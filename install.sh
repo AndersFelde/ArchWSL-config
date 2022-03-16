@@ -5,11 +5,11 @@ if [ "$EUID" -ne 0 ]; then
     exit
 fi
 
-if ! nc -zw1 8.8.8.8 443; then
-  tput setaf 1
-  echo "Please connect to the internet"
-  tput sgr0
-  exit
+if ! ping -q -c 1 -W 1 8.8.8.8 >/dev/null; then
+    tput setaf 1
+    echo "Please connect to the internet"
+    tput sgr0
+    exit
 fi
 
 printUpdate()
