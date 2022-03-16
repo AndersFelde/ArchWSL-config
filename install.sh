@@ -20,9 +20,12 @@ echo
 
 printUpdate "Creating user"
 read -p "Username: " username
+username=$(echo $username | tr '[:upper:]' '[:lower:]')
 useradd -m -G wheel -s /bin/bash $username
+printUpdate "$username was created"
+echo
 
-printUpdate "Password for user"
+printUpdate "Password for $username"
 passwd $username
 echo
 
