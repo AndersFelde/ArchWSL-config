@@ -1,5 +1,14 @@
-if [ "$EUID" -ne 0 ]
-  then tput setaf 1; echo "Must be run as root"
+if [ "$EUID" -ne 0 ]; then 
+    tput setaf 1
+    echo "Must be run as root"
+    tput sgr0
+    exit
+fi
+
+if ! nc -zw1 8.8.8.8 443; then
+  tput setaf 1
+  echo "Please connect to the internet"
+  tput sgr0
   exit
 fi
 
