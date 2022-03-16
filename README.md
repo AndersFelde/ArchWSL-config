@@ -103,7 +103,7 @@ paru
 paru NameOfPackage
 ```
 
-Then choose the package you want to install by pressing the coresponding number
+Then choose the package you want to install by pressing the coresponding number (usually 1)
 
 > Tip: if a file is opened after starting the install, press "q" to exit the file and continue installing
 
