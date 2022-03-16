@@ -72,6 +72,7 @@ Install from Microsoft Store: [Windows Terminal](https://www.microsoft.com/en-us
 Download [Caskadia Cove (font)](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip)
 
 Unzip the folder
+
 Right click the file `Caskaydia Cove Nerd Font Complete Windows Compatible.ttf` and install
 
 #### Windows Terminal Settings
