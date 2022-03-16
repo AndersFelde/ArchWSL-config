@@ -1,9 +1,5 @@
 # Arch WSL config
 
-## Results
-
-Your terminal should look like this when you are done
-
 ![Sheeeeesh terminal](https://github.com/AndersFelde/ArchWSL-config/raw/main/images/shell.png)
 
 ## WSL
