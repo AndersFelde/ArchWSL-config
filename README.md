@@ -9,6 +9,8 @@ wsl --install
 wsl --set-default-version 2
 ```
 
+Restart the computer
+
 ## Install
 
 #### 1. [Download](https://github.com/yuk7/ArchWSL/releases/latest) installer zip file.
