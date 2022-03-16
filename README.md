@@ -87,6 +87,12 @@ Set Argonaut as default colorscheme for Arch
 
 Set CaskadyiaCove Nerd Font as default Font face for Arch
 
+## Results
+
+Your terminal should now look like this
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
 ## Paru
 
 > Paru is now used instead of Pacman to install and update packages
