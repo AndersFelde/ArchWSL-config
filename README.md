@@ -79,13 +79,13 @@ Right click the file `Caskaydia Cove Nerd Font Complete Windows Compatible.ttf` 
 
 #### Windows Terminal Settings
 
+> [How to add custom colorscheme in Windows Terminal](https://aavtech.site/2020/03/how-to-change-the-color-scheme-in-the-new-windows-terminal/#third-party-theme)
+
 Open JSON file
 
 Add Argonaut to "schemes" [argonaut.json](https://raw.githubusercontent.com/AndersFelde/ArchWSL-config/main/argonaut.json)
 
 Set Argonaut as default colorscheme for Arch
-
-> [How to add custom colorscheme in Windows Terminal](https://aavtech.site/2020/03/how-to-change-the-color-scheme-in-the-new-windows-terminal/#third-party-theme)
 
 Set CaskadyiaCove Nerd Font as default Font face for Arch
 
