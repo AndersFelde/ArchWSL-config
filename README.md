@@ -11,6 +11,24 @@ wsl --set-default-version 2
 
 Restart the computer
 
+### Debugging
+
+If you get this error:
+
+```
+Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in the BIOS.
+```
+
+Run in windows powershell (with admin rights)
+
+```powershell
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+Restart computer
+
+If it still does not work, ensure that virtualization is enabled in BIOS
+
 ## Install
 
 #### 1. [Download](https://github.com/yuk7/ArchWSL/releases/latest) installer zip file.
