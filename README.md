@@ -11,6 +11,8 @@ wsl --set-default-version 2
 
 Restart the computer
 
+> Tip: Ubuntu is installed by default (why?), to uninstall run `wsl --unregister Ubuntu`
+
 ### Debugging
 
 If you get this error:
