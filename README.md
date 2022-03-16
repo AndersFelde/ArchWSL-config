@@ -116,3 +116,7 @@ paru -Rs NameOfPackage
 ## Run GUI apps from WSL 2 (optional)
 
 [How to run GUI apps from wsl](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
+
+It should work out of the box for Windows 2200 Build og higher
+
+Install for example geedit to install required software: `paru gedit`
