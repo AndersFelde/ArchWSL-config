@@ -20,6 +20,7 @@ echo
 
 printUpdate "Creating user"
 read -p "Username: " username
+#convert uppercase to lowercase
 username=$(echo $username | tr '[:upper:]' '[:lower:]')
 useradd -m -G wheel -s /bin/bash $username
 printUpdate "$username was created"
