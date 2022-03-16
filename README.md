@@ -91,7 +91,7 @@ Set CaskadyiaCove Nerd Font as default Font face for Arch
 
 Your terminal should now look like this
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://github.com/AndersFelde/ArchWSL-config/raw/main/images/shell.png)
 
 ## Paru
 
