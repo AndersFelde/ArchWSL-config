@@ -119,4 +119,4 @@ paru -Rs NameOfPackage
 
 It should work out of the box for Windows 2200 Build og higher
 
-Install for example geedit to install required software: `paru gedit`
+Install for example gedit to install required software: `paru gedit`
