@@ -1,5 +1,11 @@
 # Arch WSL config
 
+## Results
+
+Your terminal should look like this when you are done
+
+![Sheeeeesh terminal](https://github.com/AndersFelde/ArchWSL-config/raw/main/images/shell.png)
+
 ## WSL
 
 > In powershell with administrator rights
@@ -86,12 +92,6 @@ Set Argonaut as default colorscheme for Arch
 > [How to add custom colorscheme in Windows Terminal](https://aavtech.site/2020/03/how-to-change-the-color-scheme-in-the-new-windows-terminal/#third-party-theme)
 
 Set CaskadyiaCove Nerd Font as default Font face for Arch
-
-## Results
-
-Your terminal should now look like this
-
-![This is an image](https://github.com/AndersFelde/ArchWSL-config/raw/main/images/shell.png)
 
 ## Paru
 
