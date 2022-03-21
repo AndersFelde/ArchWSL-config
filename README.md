@@ -107,7 +107,7 @@ paru NameOfPackage
 
 Then choose the package you want to install by pressing the coresponding number (usually 1)
 
-> Tip: if you get a error with the following error message `failed retrieving ... 404 Not Found`, try `paru` (updates mirror lists)
+> Tip: if you get a error with the following error message `failed retrieving ... 404 Not Found`, try `paru -Syy` (updates mirror lists)
 
 > Tip: if a file is opened after starting the install, press "q" to exit the file and continue installing
 
