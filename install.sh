@@ -78,7 +78,6 @@ EOF
 chsh --shell /bin/zsh $username
 
 printUpdate "Setting up config files"
-paru -S dotter-rs-bin --noconfirm --skipreview
 sudo -i -u $username bash << EOF
 cd /tmp
 git clone https://aur.archlinux.org/dotter-rs-bin.git
