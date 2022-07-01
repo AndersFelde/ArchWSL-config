@@ -87,7 +87,7 @@ cd ~
 rm -rf /tmp/dotter-rs-bin
 git clone https://github.com/AndersFelde/dotfiles .dotfiles
 cd .dotfiles
-echo 'packages = ["wsl"]' > .dotter/local.toml
+echo 'packages = ["terminal"]' > .dotter/local.toml
 dotter deploy -v --force
 EOF
 
