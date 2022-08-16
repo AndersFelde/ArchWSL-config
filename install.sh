@@ -2,6 +2,7 @@ if [ "$EUID" -ne 0 ]; then
     tput setaf 1
     echo "Must be run as root"
     tput sgr0
+
     exit
 fi
 
