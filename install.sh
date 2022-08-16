@@ -47,7 +47,7 @@ pacman -Syyu --noconfirm
 echo
 
 printUpdate "Installing programs"
-pacman -S git zsh neovim fzf bat lsd man wget neofetch --noconfirm
+pacman -S git zsh neovim fzf bat lsd man wget neofetch gedit --noconfirm
 echo -ne "n\n\n\n" | pacman -S --needed base-devel
 echo
 
