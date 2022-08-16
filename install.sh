@@ -80,15 +80,11 @@ chsh --shell /bin/zsh $username
 
 printUpdate "Setting up config files"
 sudo -i -u $username bash << EOF
-cd /tmp
-git clone https://aur.archlinux.org/dotter-rs-bin.git
-cd dotter-rs-bin
-makepkg -si --noconfirm
+paru -S dotter-rs-bin --noconfirm
 cd ~
-rm -rf /tmp/dotter-rs-bin
 git clone https://github.com/AndersFelde/dotfiles .dotfiles
 cd .dotfiles
-echo 'packages = ["terminal"]' > .dotter/local.toml
+cp .dotter/wsl_example.toml .dotter/local.toml
 dotter deploy -v --force
 EOF
 
