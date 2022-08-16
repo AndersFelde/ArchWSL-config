@@ -48,7 +48,7 @@ pacman -Syyu --noconfirm
 echo
 
 printUpdate "Installing programs"
-pacman -S git zsh neovim fzf bat lsd man wget neofetch --noconfirm
+pacman -S git zsh neovim fzf bat lsd man wget neofetch gedit --noconfirm
 echo -ne "n\n\n\n" | pacman -S --needed base-devel
 echo
 
@@ -72,14 +72,24 @@ sudo -i -u $username bash << EOF
 cd ~
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | /bin/bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
-wget https://raw.githubusercontent.com/AndersFelde/dotfiles/master/p10k
-wget https://raw.githubusercontent.com/AndersFelde/dotfiles/master/zshrc
-mv p10k .p10k.zsh
-mv zshrc .zshrc
 cd ~/.oh-my-zsh/custom/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions
 EOF
 chsh --shell /bin/zsh $username
+
+printUpdate "Setting up config files"
+sudo -i -u $username bash << EOF
+cd /tmp
+git clone https://aur.archlinux.org/dotter-rs-bin.git
+cd dotter-rs-bin
+makepkg -si --noconfirm
+cd ~
+rm -rf /tmp/dotter-rs-bin
+git clone https://github.com/AndersFelde/dotfiles .dotfiles
+cd .dotfiles
+echo 'packages = ["terminal"]' > .dotter/local.toml
+dotter deploy -v --force
+EOF
 
 printUpdate "You are now done installing, follow the rest of the install guide"
