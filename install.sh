@@ -80,7 +80,7 @@ chsh --shell /bin/zsh $username
 
 printUpdate "Setting up config files"
 sudo -i -u $username bash << EOF
-paru -S dotter-rs-bin --noconfirm
+paru -S dotter-rs-bin zoxide --noconfirm
 cd ~
 git clone https://github.com/AndersFelde/dotfiles .dotfiles
 cd .dotfiles
