@@ -49,7 +49,7 @@ echo
 
 printUpdate "Installing programs"
 pacman -S git zsh neovim fzf bat lsd man wget neofetch gedit --noconfirm
-echo -ne "n\n\n\n" | pacman -S --needed base-devel
+pacman -S --needed base-devel --noconfirm
 echo
 
 printUpdate "Installing paru"
