@@ -41,6 +41,7 @@ passwd $username
 echo
 
 printUpdate "Setting up pacman"
+sed -i '/.no/s/^#//g' /etc/pacman.d/mirrorlist #uncommenter alle linjer med ".no" i mirrorlist
 pacman-key --init
 pacman-key --populate
 pacman -Syy archlinux-keyring --noconfirm
