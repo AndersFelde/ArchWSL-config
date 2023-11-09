@@ -88,4 +88,10 @@ cp .dotter/wsl_example.toml .dotter/local.toml
 dotter deploy -v --force
 EOF
 
+printUpdate "Installing LunarVim"
+sudo -i -u $username bash << EOF
+LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+git clone https://github.com/AndersFelde/lvim ~/.config/lvim
+EOF
+
 printUpdate "You are now done installing, follow the rest of the install guide"
