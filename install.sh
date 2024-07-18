@@ -66,6 +66,7 @@ echo
 
 printUpdate "Updating paru config"
 sed -i '/BottomUp/s/^#//g' /etc/paru.conf
+sed -i '/SudoLoop/s/^#//g' /etc/paru.conf
 echo
 
 printUpdate "Setting up zsh"
